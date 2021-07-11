@@ -14,6 +14,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let navBackgroundImage:UIImage! = UIImage(named: "pokedexHeaderText")
+        
+        UINavigationBar.appearance().setBackgroundImage(navBackgroundImage.resizableImage(withCapInsets: .zero, resizingMode: .stretch), for: .default)
+
         return true
     }
 

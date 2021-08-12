@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+//branch ticket-124
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
